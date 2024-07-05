@@ -17,7 +17,6 @@ cd "${WORKSPACE}"
 if [ -d openbmc ]; then
     #git -C openbmc fetch
     #git -C openbmc rebase
-    git pull
     echo "Using the existing code.."
 else
     git clone https://github.com/openbmc/openbmc.git
