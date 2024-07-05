@@ -15,8 +15,8 @@ export LANG=en_US.UTF8
 
 cd "${WORKSPACE}"
 if [ -d openbmc ]; then
-    git -C openbmc fetch
-    git -C openbmc rebase
+    git -C openbmc fetch master
+    git -C openbmc rebase master
 else
     git clone https://github.com/openbmc/openbmc.git
 fi
