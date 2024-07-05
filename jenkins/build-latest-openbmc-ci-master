@@ -26,16 +26,16 @@ fi
 export build_dir="${WORKSPACE}/build"
 
 PLATFORM_MACHINES=(
-    romed8hm3,
-    romulus,
-    zaius,
-    e3c246d4i,
-    gbs,
-    p10bmc,
-    yosemite4,
-    bletchley,
-    witherspoon,
-    ahe50dc,
+    romed8hm3
+    romulus
+    zaius
+    e3c246d4i
+    gbs
+    p10bmc
+    yosemite4
+    bletchley
+    witherspoon
+    ahe50dc
     palmetto
 )
 
